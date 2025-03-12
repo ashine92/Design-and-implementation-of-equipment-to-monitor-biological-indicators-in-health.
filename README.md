@@ -8,14 +8,14 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + Nhiệt độ cơ thể
   + Chuyển động và hoạt động
 - Nghiên cứu các thiết bị và cảm biến hiện có trên thị trường:
-  + Vi xử lý: STM32F103C8T6, 32-Bit ARM Cortex M3 Microcontroller, 72MHz, 64KB FLASH, 48-LQFP
+  + Vi xử lý: Kit phát triển WiFi BLE5 SoC ESP32-S3 Super Mini 4MB
+  + Mạch ESP32-S3 Super Mini Expansion Board
   + Cảm biến nhịp tim và SpO2: MAX30102
   + Cảm biến nhiệt độ cơ thể: MLX90614
   + Cảm biến chuyển động MPU6050
-  + Pin: 3.7 Li-Po
+  + Pin: 3.7 Li-Po - 2000mA
   + Mạch sạc: TP-4056
   + Màn hình hiển thị: GC9A01
-  + Bluetooth: HC-05
   + Khác: Module tạo rung nhỏ (Buzzer), nút nhấn (2 cái)
 
 ## Giai đoạn 2: Thiết kế thiết bị wearable 
