@@ -46,6 +46,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 + Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau.
 
 ### AI (Ánh, Ngân)
+Google Colab:  https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing
 + Tìm hiểu các mô hình AI có thể áp dụng (so sánh các mô hình để lựa chọn mô hình tối uu)
 + Xây dựng dataset (dữ liệu nhịp tim, SpO2, nhiệt độ, vận động).
 + So sánh hiệu suất và độ chính xác của các mô hình.
