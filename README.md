@@ -34,6 +34,29 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 - Cảm biến
 - Mạch nguồn và sạc
 - Màn hình hiển thị và giao tiếp không dây
-### 3. Vẽ layout PCB
-### 4. Gia công mạch in
-### 5. Lắp ráp linh kiện + kiểm tra
+### 3. Vẽ layout PCB (Pass tới giai đoạn sau)
+### 4. Gia công mạch in (Pass tới giai đoạn sau)
+### 5. Lắp ráp linh kiện + kiểm tra (Pass tới giai đoạn sau)
+
+## Giai đoạn 3: Chia tasks
+### Code phần cứng: (Hiển + Thoa)
+- Code hiển thị dữ liệu cảm biến & xử lý nút nhấn
++ Lấy dữ liệu từ các cảm biến (MAX30102, MLX90614, LSM303DLHC).
++ Hiển thị dữ liệu trên màn hình GC9A01.
++ Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau.
+
+### AI (Ánh, Ngân)
++ Tìm hiểu các mô hình AI có thể áp dụng (so sánh các mô hình để lựa chọn mô hình tối uu)
++ Xây dựng dataset (dữ liệu nhịp tim, SpO2, nhiệt độ, vận động).
++ So sánh hiệu suất và độ chính xác của các mô hình.
+
+### App (Hoàng)
++ Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
++ Thiết kế giao diện UI/UX (dùng Figma).
++ Tìm hiểu cách kết nối ứng dụng với ESP32 (BLE hoặc MQTT).
+
+### Nghiên cứu cơ sở dữ liệu & lưu trữ dữ liệu (...)
++ Chọn cách lưu dữ liệu (Firebase, MySQL, hoặc SQLite).
++ Tìm hiểu cách đẩy dữ liệu từ ESP32 lên database.
++ Viết API để ứng dụng di động lấy dữ liệu từ server. (hoặc cách khác)
+
