@@ -12,11 +12,11 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + Mạch ESP32-S3 Super Mini Expansion Board
   + Cảm biến nhịp tim và SpO2: MAX30102
   + Cảm biến nhiệt độ cơ thể: MLX90614
-  + Cảm biến chuyển động MPU6050
+  + Cảm biến la bàn số và gia tốc: LSM303DLHC
   + Pin: 3.7 Li-Po - 2000mA
   + Mạch sạc: TP-4056
   + Màn hình hiển thị: GC9A01
-  + Khác: Module tạo rung nhỏ (Buzzer), nút nhấn (2 cái)
+  + Khác: Module tạo rung nhỏ (Buzzer), nút nhấn (3 cái)
 
 ## Giai đoạn 2: Thiết kế thiết bị wearable 
 ### 1. Lên ý tưởng thiết kế
@@ -46,7 +46,9 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 + Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau.
 
 ### AI (Ánh, Ngân)
+
 Google Colab:  https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing
+
 References: https://drive.google.com/drive/u/0/folders/16fmTTK8AtNspV0BJJl2BhCymmkxGqh6t
 
 + Tìm hiểu các mô hình AI có thể áp dụng (so sánh các mô hình để lựa chọn mô hình tối uu)
