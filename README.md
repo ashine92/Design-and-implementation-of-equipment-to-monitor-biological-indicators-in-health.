@@ -34,8 +34,8 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 - Cảm biến
 - Mạch nguồn và sạc
 - Màn hình hiển thị và giao tiếp không dây
-### 3. Vẽ layout PCB (Pass tới giai đoạn sau)
-### 4. Gia công mạch in (Pass tới giai đoạn sau)
+### 3. Vẽ layout PCB (Thuê)
+### 4. Gia công mạch in (Thuê)
 ### 5. Lắp ráp linh kiện + kiểm tra (Pass tới giai đoạn sau)
 
 ## Giai đoạn 3: Chia tasks
@@ -47,7 +47,6 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 
 ### AI (Ánh, Ngân)
 Google Colab:  https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing
-
 References: https://drive.google.com/drive/u/0/folders/16fmTTK8AtNspV0BJJl2BhCymmkxGqh6t
 
 + Tìm hiểu các mô hình AI có thể áp dụng (so sánh các mô hình để lựa chọn mô hình tối uu)
