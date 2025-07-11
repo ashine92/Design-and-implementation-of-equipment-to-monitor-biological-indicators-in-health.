@@ -15,7 +15,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + Cảm biến la bàn số và gia tốc: LSM303DLHC
   + Pin: 3.7 Li-Po - 2000mA
   + Mạch sạc: TP-4056
-  + Màn hình hiển thị: GC9A01
+  + Màn hình hiển thị: Panel màn hình LCD TFT IPS 1.69 Inch Rounded Corners ST7789V2 SPI Interface
   + Khác: Module tạo rung nhỏ (Buzzer), nút nhấn (3 cái)
 
 ## Giai đoạn 2: Thiết kế thiết bị wearable 
