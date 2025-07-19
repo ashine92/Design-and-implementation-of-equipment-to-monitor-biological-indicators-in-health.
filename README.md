@@ -73,7 +73,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + Human Activity Recognition Using Accelerometer Data and ESP-DL: https://developer.espressif.com/blog/esp32-s3-edge-ai-human-activity-recognition-using-accelerometer-data-and-esp-dl/
   + Hand Gesture Recognition with ESP-Deep Learning: https://developer.espressif.com/blog/hand-gesture-recognition-on-esp32-s3-with-esp-deep-learning/
 - [Tutorial] Installation and Use of ESP-IDF Extension in Visual Studio Code: https://www.youtube.com/watch?v=EBXK3Mr6y7I
-
+- Dataset: https://www.kaggle.com/datasets/vinayakshanawad/heart-rate-prediction-to-monitor-stress-level
 ### 3. App + CSDL (Hoàng)
 + **[Done]** Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
 + **[In progress]** Thiết kế giao diện UI/UX (dùng Figma).
