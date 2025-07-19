@@ -39,7 +39,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 ### 5. Lắp ráp linh kiện + kiểm tra (Pass tới giai đoạn sau)
 
 ## Giai đoạn 3: Chia tasks
-### Code phần cứng: (Hiển + Thoa)
+### 1. Code phần cứng: (Hiển + Thoa)
 - Code hiển thị dữ liệu cảm biến 
 + Lấy dữ liệu từ các cảm biến (MAX30102, MLX90614, LSM303DLHC)
   + MAX30102 -> hàn lại
@@ -48,18 +48,19 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 + **[In Progress]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
 + **[In Progress]** Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau và hiển thị dữ liệu cảm biến
 
-### AI: Dự đoán nhịp tim để giám sát stress (Ánh, Ngân)
-#### Model Development
+### 2. AI: Dự đoán nhịp tim để giám sát stress (Ánh, Ngân)
+#### 2.1 Model Development
 **[Done]** Google Colab:  [https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing](https://colab.research.google.com/drive/1b7qM1nVnIkjZ6yTLP71XRZEenfaDeFCO)
 
-#### Model Deployment (In Progress)
+#### 2.2 ESP-DL format (In Progress)
+#### 2.3 Model Deployment (In Progress)
 References: 
 - ESP32-S3 Edge AI:
   + Human Activity Recognition Using Accelerometer Data and ESP-DL: https://developer.espressif.com/blog/esp32-s3-edge-ai-human-activity-recognition-using-accelerometer-data-and-esp-dl/
   + Hand Gesture Recognition with ESP-Deep Learning: https://developer.espressif.com/blog/hand-gesture-recognition-on-esp32-s3-with-esp-deep-learning/
 - [Tutorial] Installation and Use of ESP-IDF Extension in Visual Studio Code: https://www.youtube.com/watch?v=EBXK3Mr6y7I
 
-### App + CSDL (Hoàng)
+### 3. App + CSDL (Hoàng)
 + **[Done]** Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
 + **[In progress]** Thiết kế giao diện UI/UX (dùng Figma).
 + Tìm hiểu cách kết nối ứng dụng với ESP32 (BLE hoặc MQTT).
