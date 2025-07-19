@@ -63,7 +63,7 @@ References:
 ### 3. App + CSDL (Hoàng)
 + **[Done]** Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
 + **[In progress]** Thiết kế giao diện UI/UX (dùng Figma).
-+ Tìm hiểu cách kết nối ứng dụng với ESP32 (BLE hoặc MQTT).
++ **[In Progress]** Tạo App và triển khai tích hợp với ESP32
 
 References: 
 - IoT with Firebase and your own Android App - Part-1: https://www.youtube.com/watch?v=eyZyYIVxaJQ
