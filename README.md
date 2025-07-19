@@ -40,7 +40,6 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 
 ## Giai đoạn 3: Chia tasks
 ### 1. Code phần cứng: (Hiển + Thoa)
-- Code hiển thị dữ liệu cảm biến 
 + Lấy dữ liệu từ các cảm biến (MAX30102, MLX90614, LSM303DLHC)
   + **[In Progress]** MAX30102 -> hàn lại
   + **[Done]** MLX90614: temperature.ino
