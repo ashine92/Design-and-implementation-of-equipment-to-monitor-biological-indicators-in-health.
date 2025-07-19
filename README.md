@@ -42,7 +42,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 ### 1. Code phần cứng: (Hiển + Thoa)
 - Code hiển thị dữ liệu cảm biến 
 + Lấy dữ liệu từ các cảm biến (MAX30102, MLX90614, LSM303DLHC)
-  + MAX30102 -> hàn lại
+  + **[In Progress]** MAX30102 -> hàn lại
   + **[Done]** MLX90614: temperature.ino
   + **[Done]** MPU6050: đếm bước chân -> pedometers.ino
 + **[In Progress]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
