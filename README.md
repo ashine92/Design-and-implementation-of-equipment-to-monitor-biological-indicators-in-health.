@@ -47,6 +47,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + **[Done]** MPU6050: đếm bước chân -> pedometers.ino
 + **[In Progress]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
 + **[In Progress]** Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau và hiển thị dữ liệu cảm biến
++ **[In Progress]** Xử lý mạch sạc, nguồn cho ESP32
 
 ### 2. AI: Dự đoán nhịp tim để giám sát stress (Ánh, Ngân)
 #### 2.1 Model Development
