@@ -12,14 +12,14 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + Mạch ESP32-S3 Super Mini Expansion Board
   + Cảm biến nhịp tim và SpO2: MAX30102
   + Cảm biến nhiệt độ cơ thể: MLX90614
-  + Cảm biến la bàn số và gia tốc: LSM303DLHC
+  + Cảm Biến gia tốc GY-521 6DOF IMU MPU6050
   + Pin: 3.7 Li-Po - 2000mA
   + Mạch sạc: TP-4056
   + Màn hình hiển thị: Panel màn hình LCD TFT IPS 1.69 Inch Rounded Corners ST7789V2 SPI Interface
   + Khác: Module tạo rung nhỏ (Buzzer), nút nhấn (3 cái)
 
 ## Giai đoạn 2: Thiết kế thiết bị wearable 
-### 1. Lên ý tưởng thiết kế
+### 1. Lên ý tưởng thiết kế [Done]
 #### Chức năng:
 - Theo dõi sức khỏe
 - Cảnh báo và nhắc nhở
@@ -40,28 +40,31 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 
 ## Giai đoạn 3: Chia tasks
 ### Code phần cứng: (Hiển + Thoa)
-- Code hiển thị dữ liệu cảm biến & xử lý nút nhấn
-+ Lấy dữ liệu từ các cảm biến (MAX30102, MLX90614, LSM303DLHC).
-+ Hiển thị dữ liệu trên màn hình GC9A01.
-+ Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau.
+- Code hiển thị dữ liệu cảm biến 
++ Lấy dữ liệu từ các cảm biến (MAX30102, MLX90614, LSM303DLHC)
+  + MAX30102 -> hàn lại
+  + **[Done]** MLX90614: temperature.ino
+  + **[Done]** MPU6050: đếm bước chân -> pedometers.ino
++ **[In Progress]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
++ **[In Progress]** Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau và hiển thị dữ liệu cảm biến
 
-### AI (Ánh, Ngân)
+### AI: Dự đoán nhịp tim để giám sát stress (Ánh, Ngân)
+#### Model Development
+**[Done]** Google Colab:  [https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing](https://colab.research.google.com/drive/1b7qM1nVnIkjZ6yTLP71XRZEenfaDeFCO)
 
-Google Colab:  https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing
+#### Model Deployment (In Progress)
+References: 
+- ESP32-S3 Edge AI:
+  + Human Activity Recognition Using Accelerometer Data and ESP-DL: https://developer.espressif.com/blog/esp32-s3-edge-ai-human-activity-recognition-using-accelerometer-data-and-esp-dl/
+  + Hand Gesture Recognition with ESP-Deep Learning: https://developer.espressif.com/blog/hand-gesture-recognition-on-esp32-s3-with-esp-deep-learning/
+- [Tutorial] Installation and Use of ESP-IDF Extension in Visual Studio Code: https://www.youtube.com/watch?v=EBXK3Mr6y7I
 
-References: https://drive.google.com/drive/u/0/folders/16fmTTK8AtNspV0BJJl2BhCymmkxGqh6t
-
-+ Tìm hiểu các mô hình AI có thể áp dụng (so sánh các mô hình để lựa chọn mô hình tối uu)
-+ Xây dựng dataset (dữ liệu nhịp tim, SpO2, nhiệt độ, vận động).
-+ So sánh hiệu suất và độ chính xác của các mô hình.
-
-### App (Hoàng)
-+ Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
-+ Thiết kế giao diện UI/UX (dùng Figma).
+### App + CSDL (Hoàng)
++ **[Done]** Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
++ **[In progress]** Thiết kế giao diện UI/UX (dùng Figma).
 + Tìm hiểu cách kết nối ứng dụng với ESP32 (BLE hoặc MQTT).
 
-### Nghiên cứu cơ sở dữ liệu & lưu trữ dữ liệu (...)
-+ Chọn cách lưu dữ liệu (Firebase, MySQL, hoặc SQLite).
-+ Tìm hiểu cách đẩy dữ liệu từ ESP32 lên database.
-+ Viết API để ứng dụng di động lấy dữ liệu từ server. (hoặc cách khác)
+References: 
+- IoT with Firebase and your own Android App - Part-1: https://www.youtube.com/watch?v=eyZyYIVxaJQ
+- IoT with Firebase and make your own Android App (without coding) - Part 2 : https://www.youtube.com/watch?v=xsHD0uGkDbw
 
