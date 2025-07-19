@@ -60,9 +60,13 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 **[Done]** Google Colab:  [https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing](https://colab.research.google.com/drive/1b7qM1nVnIkjZ6yTLP71XRZEenfaDeFCO)
 
 #### 2.2 ESP-DL format (In Progress)
+
 2.2.1 Requirements
+
 2.2.2 Optimization and Quantization
+
 2.2.3 Evaluate
+
 #### 2.3 Model Deployment (In Progress)
 
 **References:** 
