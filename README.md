@@ -48,7 +48,11 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 + **[In Progress]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
 + **[In Progress]** Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau và hiển thị dữ liệu cảm biến
 + **[In Progress]** Xử lý mạch sạc, nguồn cho ESP32
-
++ **[In Progress]** Tìm hiểu cách Multitasks cho ESP32 với FreeRTOS
+  + How to Multitask with FreeRTOS (ESP32 + Arduino series): https://www.youtube.com/watch?v=WQGAs9MwXno
+  + Manage FreeRTOS tasks - Suspend, Delay, Resume, Delete (ESP32 + Arduino series): https://www.youtube.com/watch?v=jJaGRCgDo9s
+  + Keep WiFi Connection Alive with FreeRTOS Task (ESP32 + Arduino series): https://www.youtube.com/watch?v=YSGPcm-qxDA
+  
 ### 2. AI: Dự đoán nhịp tim để giám sát stress (Ánh, Ngân)
 #### 2.1 Model Development
 **[Done]** Google Colab:  [https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing](https://colab.research.google.com/drive/1b7qM1nVnIkjZ6yTLP71XRZEenfaDeFCO)
@@ -69,4 +73,4 @@ References:
 References: 
 - IoT with Firebase and your own Android App - Part-1: https://www.youtube.com/watch?v=eyZyYIVxaJQ
 - IoT with Firebase and make your own Android App (without coding) - Part 2 : https://www.youtube.com/watch?v=xsHD0uGkDbw
-
+- Other videos: https://www.youtube.com/results?search_query=mit+app+inventor+firebase+esp32
