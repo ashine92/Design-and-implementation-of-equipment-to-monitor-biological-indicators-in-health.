@@ -62,7 +62,20 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 
 2.2.1 Requirements
 
+- Download ESP-DL: `git clone --recursive https://github.com/espressif/esp-dl.git`
+
+ESP-DL (ESP Deep Learning) là thư viện AI chính thức của Espressif được thiết kế để triển khai các mô hình học sâu trên các vi điều khiển như ESP32, ESP32-S3, đặc biệt tối ưu cho inference trên thiết bị (on-device AI).
+
+Convert TensorFlow to ONNX: 
+
+```python
+model = tf.keras.models.load_model("my_model.h5")
+tf.saved_model.save(model, "tmp_model")
+!python -m tf2onnx.convert --saved-model tmp_model --output "model.onnx"
+```
+
 2.2.2 Optimization and Quantization
+
 
 2.2.3 Evaluate
 
@@ -74,6 +87,9 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + Hand Gesture Recognition with ESP-Deep Learning: https://developer.espressif.com/blog/hand-gesture-recognition-on-esp32-s3-with-esp-deep-learning/
 - [Tutorial] Installation and Use of ESP-IDF Extension in Visual Studio Code: https://www.youtube.com/watch?v=EBXK3Mr6y7I
 - Dataset: https://www.kaggle.com/datasets/vinayakshanawad/heart-rate-prediction-to-monitor-stress-level
+- ESP-DL Github: https://github.com/espressif/esp-dl
+- How to quantize model: https://docs.espressif.com/projects/esp-dl/en/latest/tutorials/how_to_quantize_model.html
+
 ### 3. App + CSDL (Hoàng)
 + **[Done]** Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
 + **[In progress]** Thiết kế giao diện UI/UX (dùng Figma).
