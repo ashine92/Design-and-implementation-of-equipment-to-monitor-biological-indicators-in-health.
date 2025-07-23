@@ -89,6 +89,7 @@ tf.saved_model.save(model, "tmp_model")
 - Dataset: https://www.kaggle.com/datasets/vinayakshanawad/heart-rate-prediction-to-monitor-stress-level
 - ESP-DL Github: https://github.com/espressif/esp-dl
 - How to quantize model: https://docs.espressif.com/projects/esp-dl/en/latest/tutorials/how_to_quantize_model.html
+- ESP-DL User Guide: https://docs.espressif.com/projects/esp-dl/en/latest/esp-dl-en-master.pdf
 
 ### 3. App + CSDL (Hoàng)
 + **[Done]** Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
