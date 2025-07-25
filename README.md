@@ -34,9 +34,6 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 - Cảm biến
 - Mạch nguồn và sạc
 - Màn hình hiển thị và giao tiếp không dây
-### 3. Vẽ layout PCB (Thuê)
-### 4. Gia công mạch in (Thuê)
-### 5. Lắp ráp linh kiện + kiểm tra (Pass tới giai đoạn sau)
 
 ## Giai đoạn 3: Chia tasks
 ### 1. Code phần cứng: (Hiển + Thoa)
