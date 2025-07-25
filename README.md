@@ -46,7 +46,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + **[Done]** MPU6050: đếm bước chân -> pedometers.ino
 + **[Done]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
 + **[In Progress]** Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau và hiển thị dữ liệu cảm biến
-+ **[In Progress]** Xử lý mạch sạc, nguồn cho ESP32
++ **[In Progress]** Xử lý mạch sạc, nguồn cho ESP32. Bổ sung thêm 1 công tắc nguồn nếu muốn bật/ngắt nguồn từ pin vào ESP32. (Làm thêm Deep Sleep Mode nếu có thời gian)
 + **[In Progress]** Tìm hiểu cách Multitasks cho ESP32 với FreeRTOS
 
 **Reference:**  
