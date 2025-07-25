@@ -44,7 +44,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + **[In Progress]** MAX30102 -> hàn lại
   + **[Done]** MLX90614: temperature.ino
   + **[Done]** MPU6050: đếm bước chân -> pedometers.ino
-+ **[In Progress]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
++ **[Done]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
 + **[In Progress]** Xử lý nút nhấn: mỗi lần nhấn, chuyển qua một màn hình khác nhau và hiển thị dữ liệu cảm biến
 + **[In Progress]** Xử lý mạch sạc, nguồn cho ESP32
 + **[In Progress]** Tìm hiểu cách Multitasks cho ESP32 với FreeRTOS
@@ -93,7 +93,8 @@ tf.saved_model.save(model, "tmp_model")
 
 ### 3. App + CSDL (Hoàng)
 + **[Done]** Xác định chức năng cần có của ứng dụng (hiển thị dữ liệu, cảnh báo, biểu đồ…).
-+ **[In progress]** Thiết kế giao diện UI/UX (dùng Figma).
++ **[Done]** Thiết kế giao diện UI/UX (dùng Figma).
+  Link Figma: https://www.figma.com/design/GsawOiaFtUengL5APmdNon/Health-app-design--Community-?node-id=0-1&p=f
 + **[In Progress]** Tạo App và triển khai tích hợp với ESP32
 
 **References:** 
