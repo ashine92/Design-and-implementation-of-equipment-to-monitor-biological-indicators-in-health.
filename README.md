@@ -41,7 +41,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 ## Giai đoạn 3: Chia tasks
 ### 1. Code phần cứng: (Hiển + Thoa)
 + Lấy dữ liệu từ các cảm biến (MAX30102, MLX90614, LSM303DLHC)
-  + **[In Progress]** MAX30102 -> hàn lại
+  + **[Done]** MAX30102 -> heart rate + spO2
   + **[Done]** MLX90614: temperature.ino
   + **[Done]** MPU6050: đếm bước chân -> pedometers.ino
 + **[Done]** Hiển thị dữ liệu trên màn hình Màn hình LCD ST7789V2 SPI Interface
