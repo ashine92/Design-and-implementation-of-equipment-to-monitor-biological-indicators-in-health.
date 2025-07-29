@@ -55,28 +55,39 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
 #### 2.1 Model Development
 **[Done]** Google Colab:  [https://colab.research.google.com/drive/1AIxBh9OB1w2gnLzUGjKlHeO3H2ycOqI2?usp=sharing](https://colab.research.google.com/drive/1b7qM1nVnIkjZ6yTLP71XRZEenfaDeFCO)
 
-#### 2.2 ESP-DL format (In Progress)
+#### 2.2 Model Deployment
 
-2.2.1 Requirements
+**Requirements**:
 
-- Download ESP-DL: `git clone --recursive https://github.com/espressif/esp-dl.git`
+- **ESP-IDF**
+- **ESP-DL**
 
-ESP-DL (ESP Deep Learning) là thư viện AI chính thức của Espressif được thiết kế để triển khai các mô hình học sâu trên các vi điều khiển như ESP32, ESP32-S3, đặc biệt tối ưu cho inference trên thiết bị (on-device AI).
+**How to quantize model?**
 
-Convert TensorFlow to ONNX: 
-
+Sau khi train model, save lại dưới dạng 3 file:
 ```python
-model = tf.keras.models.load_model("my_model.h5")
-tf.saved_model.save(model, "tmp_model")
-!python -m tf2onnx.convert --saved-model tmp_model --output "model.onnx"
+model_save_path = 'human_vital_signs_model.pth'
+torch.save(model.state_dict(), model_save_path)
+
+scaler_save_path = 'scaler.pkl'
+joblib.dump(scaler, scaler_save_path)
+
+label_encoder_save_path = 'label_encoder.pkl'
+joblib.dump(label_encoder, label_encoder_save_path)
 ```
 
-2.2.2 Optimization and Quantization
+Sau đó, chạy file `quantized_torch_model.py` (dựa trên file gốc của espdl):
 
+`python quantized_torch_model.py`
 
-2.2.3 Evaluate
+sẽ xuất ra 3 file:
 
-#### 2.3 Model Deployment (In Progress)
+- .espdl: Tệp nhị phân mô hình ESPDL, có thể được sử dụng trực tiếp để suy luận (inference) trên chip.
+
+- .info: Tệp văn bản mô hình ESPDL, dùng để gỡ lỗi và xác định xem mô hình .espdl đã được xuất đúng hay chưa. Chứa thông tin về cấu trúc mô hình, trọng số đã được lượng tử hóa, đầu vào/đầu ra thử nghiệm và các thông tin khác.
+
+- .json: Tệp thông tin lượng tử hóa, dùng để lưu và tải thông tin lượng tử hóa.
+
 
 **References:** 
 - ESP32-S3 Edge AI:
