@@ -15,6 +15,7 @@ Roadmap: https://mm.tt/app/map/3556523294?t=FeYsaCJsj1
   + Cảm Biến gia tốc GY-521 6DOF IMU MPU6050
   + Pin: 3.7 Li-Po - 2000mA
   + Mạch sạc: TP-4056
+  + Module RTC DS1302
   + Màn hình hiển thị: Panel màn hình LCD TFT IPS 1.69 Inch Rounded Corners ST7789V2 SPI Interface
   + Khác: Module tạo rung nhỏ (Buzzer), nút nhấn (3 cái)
 
