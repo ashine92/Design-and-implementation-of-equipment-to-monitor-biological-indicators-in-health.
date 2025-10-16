@@ -6,3 +6,4 @@ Thư mục này chứa mã nguồn hoàn chỉnh của ứng dụng giám sát c
 - Toàn bộ mã nguồn ứng dụng.
 - Các file cấu hình và thư viện liên quan.
 
+Drive: https://drive.google.com/drive/folders/1DNNSjaLMcCrBXgHv-O6xtRvewkRqYJCw
